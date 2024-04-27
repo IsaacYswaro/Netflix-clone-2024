@@ -1,5 +1,5 @@
-import React from 'react'
-import "./Header.css"
+import React from "react";
+import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
@@ -40,6 +40,6 @@ const Header = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Header
+export default Header;

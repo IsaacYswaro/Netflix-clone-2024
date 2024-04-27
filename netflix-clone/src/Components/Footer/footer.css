@@ -3,6 +3,7 @@ background-color: #111;
 color: gray;
 display: flex;
 justify-content: center;
+/* background-color: rgb(137, 6, 6); */
 }
 .footer_inner_container {
     width: 60%;
@@ -23,7 +24,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 15vh;
+    height: 12vh;
 
 }
 .footer_data ul li{
