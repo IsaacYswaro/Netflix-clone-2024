@@ -2,15 +2,17 @@ import React from "react";
 import "./footer.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 const Footer = () => {
   return (
     <>
       <div className="footer_outer_container">
         <div className="footer_inner_container">
-          <div className="footer_icons">
+          <div className="                                                                                                                                                                                                                         ">
             <FacebookIcon />
             <InstagramIcon />
+            <TwitterIcon/>
             <YouTubeIcon />
           </div>
           <div className="footer_data">
@@ -45,12 +47,10 @@ const Footer = () => {
             <div className="service_code">
               <p>Service Code</p>
             </div>
-            <div className="copy-write">&copy; 1997-2024 Netflix, Inc.</div>
+            <div className="copy-right"> &copy; 1997-2024 Netflix, Inc.</div>
           </div>
         </div>
       </div>
-
-      <div></div>
     </>
   );
 };
