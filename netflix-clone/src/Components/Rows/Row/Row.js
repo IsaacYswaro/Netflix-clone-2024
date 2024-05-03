@@ -27,15 +27,17 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
     if (trailerUrl) {
       setTrailerUrl("");
     } else {
-      movieTrailer(movie?.title || movie?.name || movie?.original_name).then(
-        (url) => {
+      movieTrailer(movie?.title || movie?.name || movie?.original_name)
+        .then((url) => {
           console.log(url);
           const urlParams = new URLSearchParams(new URL(url).search);
           console.log(urlParams);
           console.log(urlParams.get("v"));
           setTrailerUrl(urlParams.get("v"));
-        }
-      );
+        })
+        .catch((err) => {
+          console.log(err);
+        });
     }
   };
   const opts = {
