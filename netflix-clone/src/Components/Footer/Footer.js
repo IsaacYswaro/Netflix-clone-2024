@@ -135,7 +135,9 @@ const Footer = () => {
                     className="footer_link"
                     href="https://help.netflix.com/en/node/134094"
                   >
-                    <span className="member-footer-link-content">Corporate Information</span>
+                    <span className="member-footer-link-content">
+                      Corporate Information
+                    </span>
                   </a>
                 </li>
               </ul>

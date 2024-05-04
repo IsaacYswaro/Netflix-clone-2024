@@ -26,6 +26,16 @@ justify-content: center;
     flex-direction: column;
     justify-content: space-around;
     height: 12vh;
+}
+.footer_link{
+list-style: none;
+color: grey;
+ text-decoration: none; /* Remove default underline */
+  transition: text-decoration 0.3s; 
+}
+.footer_link:hover {
+  text-decoration: underline; 
+  color: grey;
 
 }
 .footer_data ul li{
