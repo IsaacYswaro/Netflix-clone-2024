@@ -10,10 +10,24 @@ const Footer = () => {
       <div className="footer_outer_container">
         <div className="footer_inner_container">
           <div className="footer_icons">
-            <FacebookIcon />
-            <InstagramIcon />
-            <TwitterIcon />
-            <YouTubeIcon />
+            <a className="footer_icon" href="https://www.facebook.com/netflix/">
+              <FacebookIcon />
+            </a>
+            <a className="footer_icon" href="<InstagramIcon />">
+              <InstagramIcon />
+            </a>
+            <a
+              className="footer_icon"
+              href="https://twitter.com/netflix/status/1623396371872243712?lang=en"
+            >
+              <TwitterIcon />
+            </a>
+            <a
+              className="footer_icon"
+              href="https://www.youtube.com/channel/UCWOA1ZGywLbqmigxE4Qlvuw"
+            >
+              <YouTubeIcon />
+            </a>
           </div>
           <div className="footer_data">
             <div>
@@ -46,6 +60,16 @@ const Footer = () => {
                     <span className="member-footer-link-content">Privacy</span>
                   </a>
                 </li>
+                <li className="footer_link_wrapper">
+                  <a
+                    className="footer_link"
+                    href="https://help.netflix.com/en/contactus"
+                  >
+                    <span className="member-footer-link-content">
+                      Contact Us
+                    </span>
+                  </a>
+                </li>
               </ul>
             </div>
             <div>
@@ -72,6 +96,16 @@ const Footer = () => {
                   >
                     <span className="member-footer-link-content">
                       Legal Notice
+                    </span>
+                  </a>
+                </li>
+                <li className="footer_link_wrapper">
+                  <a
+                    className="footer_link"
+                    href="https://help.netflix.com/legal/dnsspi"
+                  >
+                    <span className="member-footer-link-content">
+                      Do Not Sell or Share My Personal Information
                     </span>
                   </a>
                 </li>
@@ -103,6 +137,16 @@ const Footer = () => {
                   >
                     <span className="member-footer-link-content">
                       Cookie Preferences
+                    </span>
+                  </a>
+                </li>
+                <li className="footer_link_wrapper">
+                  <a
+                    className="footer_link"
+                    href="https://help.netflix.com/legal/dnsspi#DAA"
+                  >
+                    <span className="member-footer-link-content">
+                      Ad Choices
                     </span>
                   </a>
                 </li>
@@ -142,11 +186,11 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="service_code">
-              <p>Service Code</p>
-            </div>
-            <div className="copy-right"> &copy; 1997-2024 Netflix, Inc.</div>
           </div>
+          <div className="service_code">
+            <p>Service Code</p>
+          </div>
+          <div className="copy-right"> &copy; 1997-2024 Netflix, Inc.</div>
         </div>
       </div>
     </>

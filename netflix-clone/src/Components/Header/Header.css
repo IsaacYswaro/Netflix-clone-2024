@@ -64,3 +64,22 @@
   display: inline-block;
   margin-right: 10px;
 }
+.search-box {
+  position: relative;
+}
+
+.search-box input[type="text"] {
+  width: 0;
+  opacity: 0;
+  transition: width 0.3s ease, opacity 0.3s ease;
+  border: solid 0.1px white;
+  background-color: black;
+}
+
+.search-box.active input[type="text"] {
+  width: 200px; 
+  opacity: 1;
+}
+
+
+
